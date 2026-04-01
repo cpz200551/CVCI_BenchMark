@@ -9,6 +9,7 @@ This module provides a human agent to control the ego vehicle via keyboard
 
 import numpy as np
 import json
+import os
 
 try:
     import pygame
@@ -199,7 +200,7 @@ class KeyboardControl(object):
         self._clock = pygame.time.Clock()
 
         # Get the mode
-        if path_to_conf_file:
+        if path_to_conf_file and os.path.exists(path_to_conf_file):
 
             with (open(path_to_conf_file, "r")) as f:
                 lines = f.read().split("\n")
