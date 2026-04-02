@@ -1,5 +1,24 @@
 <routes>
-    <!-- ========== level 1: init_speed=19.4, reverse_speed=4 ========== -->
+    <!-- ========== scenario_class 1:missing car ========== -->
+
+    <!-- ========== scenario_class 2:High speed temporary construction ========== -->
+
+    <!-- ========== scenario_class 3:High-speed reckless lane cutting ========== -->
+
+    <!-- ========== scenario_class 4:Highway accident vehicle ========== -->
+
+    <!-- ========== scenario_class 5:Trucks encountered during construction ========== -->
+
+    <!-- ========== scenario_class 6:Drive into the roundabout ========== -->
+
+    <!-- ========== scenario_class 7:Four students crossing the road ========== -->
+
+    <!-- ========== scenario_class 8:avoid a disabled vehicle ========== -->
+
+    <!-- ========== scenario_class 9:Slanted motor and children ========== -->
+
+    <!-- ========== scenario_class 10:reverse_vehicle ========== -->
+    <!-- ========== level 3: init_speed=19.4, reverse_speed=4 ========== -->
     <route id="0" town="Town03">
         <waypoints>
             <position x="15.500000" y="134.423233" z="0.5" />
@@ -538,7 +557,7 @@
         </weathers>
     </route>
 
-    <!-- ========== level 3: init_speed=13.88, reverse_speed=2.5 ========== -->
+    <!-- ========== level 1: init_speed=13.88, reverse_speed=2.5 ========== -->
     <route id="8" town="Town03">
         <waypoints>
             <position x="15.500000" y="134.423233" z="0.5" />
@@ -806,4 +825,8 @@
             <weather cloudiness="90.0" fog_density="10.0" precipitation="60" precipitation_deposits="50" wetness="70" wind_intensity="80.0" sun_altitude_angle="90" sun_azimuth_angle="0" route_percentage="100" />
         </weathers>
     </route>
+
+    <!-- ========== scenario_class 11:crazy motor ========== -->
+
+    <!-- ========== scenario_class 12:Blind spot hidden car ========== -->
 </routes>
