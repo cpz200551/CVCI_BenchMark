@@ -10,3 +10,4 @@ scenario_runner/scenario_runner.egg-info/SOURCES.txt
 path.txt
 weather.txt
 evaluation_results.json
+scenario_runner/srunner/data/test.xml
